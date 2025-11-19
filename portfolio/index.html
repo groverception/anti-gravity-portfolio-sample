@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Grover | Senior Frontend Engineer</title>
+    <meta name="description" content="Portfolio of Anuj Grover, a Senior Frontend Engineer and UX Designer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Aurora Background -->
+    <div class="aurora-bg">
+        <div class="aurora-blob blob-1"></div>
+        <div class="aurora-blob blob-2"></div>
+        <div class="aurora-blob blob-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">AG.</a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-label fade-in">Available for hire</span>
+                    <h1 class="hero-title fade-in delay-1">
+                        Crafting Digital <br>
+                        <span class="gradient-text">Masterpieces.</span>
+                    </h1>
+                    <p class="hero-subtitle fade-in delay-2">
+                        I'm Anuj Grover, a Senior Frontend Engineer & UX Designer with 9+ years of experience.
+                        I build high-performance, aesthetically pleasing web applications.
+                    </p>
+                    <div class="hero-actions fade-in delay-3">
+                        <a href="#work" class="btn btn-primary magnetic">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary magnetic">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Marquee -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span class="skill-item">Vue.js</span>
+                <span class="skill-item">React</span>
+                <span class="skill-item">TypeScript</span>
+                <span class="skill-item">Angular</span>
+                <span class="skill-item">Node.js</span>
+                <span class="skill-item">Figma</span>
+                <span class="skill-item">AWS</span>
+                <span class="skill-item">Next.js</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="skill-item">Vue.js</span>
+                <span class="skill-item">React</span>
+                <span class="skill-item">TypeScript</span>
+                <span class="skill-item">Angular</span>
+                <span class="skill-item">Node.js</span>
+                <span class="skill-item">Figma</span>
+                <span class="skill-item">AWS</span>
+                <span class="skill-item">Next.js</span>
+            </div>
+        </div>
+
+        <!-- Work Section (Bento Grid) -->
+        <section id="work" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected Work</h2>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Project 1: Large -->
+                    <article class="bento-item bento-large magnetic-card">
+                        <div class="project-content">
+                            <span class="project-year">2023</span>
+                            <h3 class="project-title">Audit-Trail Library</h3>
+                            <p class="project-desc">High-performance Vue 3 library handling 100k+ records.</p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">Vue 3</span>
+                                <span class="tech-pill">TypeScript</span>
+                                <span class="tech-pill">Vite</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Tall -->
+                    <article class="bento-item bento-tall magnetic-card">
+                        <div class="project-content">
+                            <span class="project-year">2022</span>
+                            <h3 class="project-title">Solar IoT</h3>
+                            <p class="project-desc">Real-time monitoring dashboard for Schneider Electric.</p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">Angular</span>
+                                <span class="tech-pill">D3.js</span>
+                                <span class="tech-pill">Azure</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Medium -->
+                    <article class="bento-item bento-medium magnetic-card">
+                        <div class="project-content">
+                            <span class="project-year">2022</span>
+                            <h3 class="project-title">Infra Provisioning</h3>
+                            <p class="project-desc">IaaS automation tool for Goldman Sachs.</p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">React</span>
+                                <span class="tech-pill">Redux</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Medium -->
+                    <article class="bento-item bento-medium magnetic-card">
+                        <div class="project-content">
+                            <span class="project-year">2021</span>
+                            <h3 class="project-title">Baseline Plus</h3>
+                            <p class="project-desc">Medical study management platform.</p>
+                            <div class="tech-stack">
+                                <span class="tech-pill">Vue 2</span>
+                                <span class="tech-pill">Node.js</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                </div>
+
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="exp-date">05/2021 - Present</div>
+                        <div class="exp-role">
+                            <h3>Frontend Technical Lead</h3>
+                            <h4>Globant India Pvt. Ltd.</h4>
+                        </div>
+                        <div class="exp-desc">
+                            Leading frontend architecture for FactSet's trading ecosystem. Mentoring team members and
+                            building core libraries.
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-date">2019 - 2021</div>
+                        <div class="exp-role">
+                            <h3>Software Engineer</h3>
+                            <h4>Pratham Software Pvt. Ltd.</h4>
+                        </div>
+                        <div class="exp-desc">
+                            Lead Frontend developer for CISIV, UK. Built complex admin panels and hybrid mobile apps.
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="exp-date">2016 - 2019</div>
+                        <div class="exp-role">
+                            <h3>Senior Systems Engineer</h3>
+                            <h4>Infosys LTD</h4>
+                        </div>
+                        <div class="exp-desc">
+                            Worked with major US clients like CareFirst and Pfizer. Managed UI projects and team of
+                            developers.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <p class="hero-subtitle" style="margin: 0 auto;">Ready to start a project?</p>
+                <a href="mailto:anujgrover01@live.com" class="contact-email magnetic">anujgrover01@live.com</a>
+
+                <div class="hero-actions" style="justify-content: center; margin-top: 2rem;">
+                    <a href="#" class="btn btn-secondary magnetic">LinkedIn</a>
+                    <a href="#" class="btn btn-secondary magnetic">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
